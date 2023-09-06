@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <img
+          src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600 "
+          width="50px"
+          alt=""
+          srcset=""
+        />
+        <nav class="" >
+          <div class="menu">
+            <ul>
+              <li><a href="#">PRODUCT</a></li>
+              <li><a href="#">FEATURE</a></li>
+              <li><a href="#">MARKETPLACE</a></li>
+              <li><a href="#">COMPANY</a></li>
+            </ul>
+          </div>
+
+          <div onclick="openMenu()" class="toggle icon-menu " >
+            <svg
+              width="28px"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              ></path>
+            </svg>
+          </div>
+          <div class="toggle icon-close" onclick="closeMenu()">
+            <svg
+              width="25px"
+              height="25px"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </div>
+        </nav>
+      </header>
+
+      <main class="content">
+        <div class="c-text">
+
+            <a class="we" href=""
+              ><span>we're hiring</span>
+              <hr />
+              <span>See open positions</span></a
+            >
+
+          <h1>A better way to ship your projects</h1>
+
+          <p>
+            Esse id magna consectetur fugiat non dolor in ad laboris magna
+            laborum ea consequat. Nisi irure aliquip nisi adipisicing veniam
+            voluptate id. In veniam incididunt ex veniam adipisicing sit.
+          </p>
+
+          <div class="button-c">
+            <a class="button">Get started</a>
+            <a class="button"
+              >Learn more
+              <svg
+                width="18px"
+                height="18px"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="img">
+          <svg viewBox="0 0 366 729" role="img" class="gs sm tw bdy">
+            <title>App screenshot</title>
+            <defs>
+              <clipPath id="2ade4387-9c63-4fc4-b754-10e687a0d332">
+                <rect width="316" height="684" rx="36"></rect>
+              </clipPath>
+            </defs>
+            <path
+              fill="#4B5563"
+              d="M363.315 64.213C363.315 22.99 341.312 1 300.092 1H66.751C25.53 1 3.528 22.99 3.528 64.213v44.68l-.857.143A2 2 0 0 0 1 111.009v24.611a2 2 0 0 0 1.671 1.973l.95.158a2.26 2.26 0 0 1-.093.236v26.173c.212.1.398.296.541.643l-1.398.233A2 2 0 0 0 1 167.009v47.611a2 2 0 0 0 1.671 1.973l1.368.228c-.139.319-.314.533-.511.653v16.637c.221.104.414.313.56.689l-1.417.236A2 2 0 0 0 1 237.009v47.611a2 2 0 0 0 1.671 1.973l1.347.225c-.135.294-.302.493-.49.607v377.681c0 41.213 22 63.208 63.223 63.208h95.074c.947-.504 2.717-.843 4.745-.843l.141.001h.194l.086-.001 33.704.005c1.849.043 3.442.37 4.323.838h95.074c41.222 0 63.223-21.999 63.223-63.212v-394.63c-.259-.275-.48-.796-.63-1.47l-.011-.133 1.655-.276A2 2 0 0 0 366 266.62v-77.611a2 2 0 0 0-1.671-1.973l-1.712-.285c.148-.839.396-1.491.698-1.811V64.213Z"
+            ></path>
+            <path
+              fill="#343E4E"
+              d="M16 59c0-23.748 19.252-43 43-43h246c23.748 0 43 19.252 43 43v615c0 23.196-18.804 42-42 42H58c-23.196 0-42-18.804-42-42V59Z"
+            ></path>
+            <foreignObject
+              width="416"
+              height="684"
+              transform="translate(24 24)"
+              clip-path="url(#2ade4387-9c63-4fc4-b754-10e687a0d332)"
+            >
+              <img
+                width="320xp"
+                src="https://tailwindui.com/img/component-images/mobile-app-screenshot.png"
+                alt=""
+              />
+            </foreignObject>
+          </svg>
+        </div>
+      </main>
+
+      <section class="content">
+        <div class="c-text">
+          <h2>Get notified when we’re launching.</h2>
+          <p>
+            Reprehenderit ad esse et non officia in nulla. Id proident tempor
+            incididunt nostrud nulla et culpa.
+          </p>
+        </div>
+
+        <form action="" id="notify">
+          <label for="notify">
+            <input type="email" placeholder="Envie seu email" />
+          </label>
+          <button>Notify me</button>
+        </form>
+      </section>
+    </div>
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>
